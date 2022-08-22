@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <form action="mailto:drstunnerworks@gmail.com" method="post" enctype="text/plain">
+      <!-- the action is the place where it will land after the form is filled
+      <form class="" action="index.html" method="post">
+      the enctype is used to say that the encoding type is of plain text.
+
+      We need to add the names(data) to each name attribute as this will identify the
+      data which we type in that particular field.-->
+
+      <label for="Username">Your Name:</label>
+      <input type="text" name="Name" value="">
+      <br>
+      <label for="">Enter Password (8 Characters minumum):</label>
+      <input type="password" name="Password" minlength="8" required>
+      <br>
+      <label for="">Email ID:</label>
+      <input type="email" name="Email" value="">
+      <br>
+      <label for="">datetime-local</label>
+      <input type="datetime-local" name="date&time" value="">
+      <br>
+      <label for="">Your Message:</label>
+      <textarea name="YourMessage" id="" cols="30" rows="10"></textarea>
+      <br>
+      <input type="checkbox" name="" value="">
+      <label for="">Please agree to the terms and conditions</label>
+      <br>
+      <input type="Submit" name="">
+
+    </form>
+  </body>
+</html>
